@@ -1,4 +1,13 @@
-name: Template Name
+name: blog_post_template
 description: >
-   A description of the template
+   The template is for blog posts on my website, and overall for learning material.
 create_dir: FALSE
+author: "Ivann Schlosser"
+output: 
+  html_document:
+    code_folding: "show"
+    toc: true
+    toc_float: true
+    css: "style_rmd.css"
+    number_sections: true
+    code_download: true
