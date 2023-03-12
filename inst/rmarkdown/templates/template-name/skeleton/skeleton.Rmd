@@ -1,18 +1,32 @@
 ---
-title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+title: "Empty blogpost template"
+author: "Ivann Schlosser"
+output: 
+  html_document:
+    code_folding: "show"
+    toc: true
+    toc_float: true
+    css: "style_rmd.css"
+    number_sections: true
+    code_download: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, echo=FALSE}
+
+# refer to https://bookdown.org/yihui/rmarkdown/template-structure.html 
+
+library(formatR)
+knitr::opts_chunk$set(echo = TRUE
+                      ,eval = FALSE
+                      ,include = TRUE
+                      ,message = FALSE
+                      ,warning = FALSE
+                      ,fig_caption = FALSE
+                      ,out.width = "80%"
+                      ,fig.align = "center"
+                      # ,tidy = TRUE
+                      ,cache = FALSE)
+
 ```
 
-## Adding an RMarkdown Template
 
-This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
-
-This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
-
-Finally, be sure to remove this message!

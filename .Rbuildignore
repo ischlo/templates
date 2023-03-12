@@ -1,1 +1,3 @@
 ^LICENSE\.md$
+^templates\.Rproj$
+^\.Rproj\.user$
