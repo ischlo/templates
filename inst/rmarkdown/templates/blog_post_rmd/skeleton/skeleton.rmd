@@ -1,23 +1,26 @@
 ---
 title: "Empty blogpost template"
 author: "Ivann Schlosser"
-output: 
-  html_document: 
-    code_folding: show
-    toc: yes
-    toc_float: yes
-    css: style_rmd.css
-    number_sections: yes
-    code_download: yes
-    highlight: pygments
-    fig_width: 6
-    fig_height: 4
-    fig_caption: yes
-    df_print: kable
-    theme: yeti
-editor_options: 
-  chunk_output_type: console
-knit: (Btoolkit::index_html())
+draft: true
+categories: 
+  - rstats
+# output:
+#   html_document:
+#     code_folding: show
+#     toc: yes
+#     toc_float: yes
+#     css: style_rmd.css
+#     number_sections: yes
+#     code_download: yes
+#     highlight: pygments
+#     fig_width: 6
+#     fig_height: 4
+#     fig_caption: yes
+#     df_print: kable
+#     theme: yeti
+# editor_options: 
+#   chunk_output_type: console
+# knit: (Btoolkit::index_html())
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
