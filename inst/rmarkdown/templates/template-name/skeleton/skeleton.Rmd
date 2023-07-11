@@ -2,7 +2,6 @@
 title: "Empty blogpost template"
 author: "Ivann Schlosser"
 output: 
-  output: 
   html_document: 
     code_folding: show
     toc: yes
@@ -18,6 +17,7 @@ output:
     theme: yeti
 editor_options: 
   chunk_output_type: console
+knit: (Btoolkit::index_html())
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
