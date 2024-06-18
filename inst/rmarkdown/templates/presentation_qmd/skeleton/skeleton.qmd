@@ -1,0 +1,46 @@
+---
+title: "A presentation"
+execute: 
+  echo: true
+  eval: true
+  include: true
+ipynb-shell-interactivity: all
+keep-ipynb: true
+format: 
+  revealjs: 
+    theme: [pres_style.scss,default]
+    fig-align: center
+    code-fold: false
+author: 
+  - name: Ivann Schlosser
+    email: ivann.schlosser@ox.co.uk
+    url: ischlosser.com
+    affiliations:
+      - name: Oxford Progamme for Sustainable Infrastructure Systems (OPSIS)
+        address: South Parks Road
+        postal-code: OX1 3QY
+        city: Oxford
+---
+
+## Intro slide
+
+### python code cell
+```{python}
+#| eval: true
+#| echo: true
+#| include: true
+
+
+
+1 + 1
+
+```
+
+### R code cell
+
+```{r eval=TRUE,echo=TRUE,include=TRUE}
+
+1 + 1
+
+```
+
