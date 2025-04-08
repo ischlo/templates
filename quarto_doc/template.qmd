@@ -13,6 +13,14 @@ author:
 bibliography: references.bib
 ---
 
-## Use this template.
+# Use this template
 
-[@shannon1949]
+## Plot
+
+![](img/template_img.png)
+
+## Entropy
+
+$$
+S = \sum_p p\cdot ln(p)
+$$ as in [@shannon1949]
