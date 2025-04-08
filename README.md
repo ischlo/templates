@@ -1,8 +1,3 @@
-
 # templates
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of templates is to ...
-
+Templates is a minimal repository with templates for documents, presentations

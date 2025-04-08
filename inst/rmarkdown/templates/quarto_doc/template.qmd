@@ -1,0 +1,18 @@
+---
+title: "Template Doc"
+format: html
+author:
+  - name: Ivann Schlosser
+    email: ivann.schlosser@ouce.ox.co.uk
+    url: ischlosser.com
+    affiliations:
+      - name: Oxford Progamme for Sustainable Infrastructure Systems (OPSIS)
+        address: South Parks Road
+        postal-code: OX1 3QY
+        city: Oxford
+bibliography: references.bib
+---
+
+## Use this template.
+
+[@shannon1949]

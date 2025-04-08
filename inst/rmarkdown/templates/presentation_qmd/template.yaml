@@ -1,0 +1,3 @@
+name: presentation_qmd
+description: This is my template for quarto presentations.
+create_dir: true
